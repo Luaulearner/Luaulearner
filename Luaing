@@ -1,4 +1,4 @@
-local player = on
+local player = off
 while on do
 wait(5)
 print("ITS DUCKING ON")
