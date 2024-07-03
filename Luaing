@@ -1,0 +1,10 @@
+local player = on
+while on do
+wait(5)
+print("ITS DUCKING ON")
+if player == on then
+  print(#game.players.GetPlayers())
+elseif player == off then
+  game:Shutdown()
+  end
+end
